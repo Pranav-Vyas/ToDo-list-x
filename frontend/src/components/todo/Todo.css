@@ -1,0 +1,83 @@
+body {
+    background-color: #CAD3D2;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container > h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+
+
+
+.item > p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    margin: 0;
+    margin-right: 10px;
+    max-width: 500px;
+    overflow-wrap: break-word;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-input {
+    height: 35px;
+    width: 180px;
+    margin: 20px;
+    border-radius: 7px;
+    border: 1px solid;
+    outline: none;
+}
+
+.MuiIcon-root {
+    font-size: 2.5rem !important;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+
+.delete-btn {
+    height: 25px;
+    width: 60px;
+    margin: 0;
+
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
+
+.logout-btn {
+    margin-left: 20px;
+    height: 30px;
+    width: 70px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 7px;
+}
+
+.logout-btn:hover {
+    cursor: pointer;
+}
