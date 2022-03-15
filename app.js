@@ -1,11 +1,11 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const port = process.env.PORT || 5000;
 const app = express();
 const session = require("express-session");
 dotenv.config({path: './config.env'});
 var cors = require("cors");
 const path = require("path");
+const port = process.env.PORT || 5000;
 
 require("./database");
 
