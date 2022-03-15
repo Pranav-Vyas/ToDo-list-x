@@ -1,4 +1,4 @@
 config.env
 node_modules
-/build
-/frontend/build
+# /build
+# /frontend/build
