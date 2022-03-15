@@ -61,7 +61,8 @@ function Login() {
                         <input autoComplete="off" onChange={handleOnChange} required className="login-input" type="password" name="password" placeholder="Password" />
                         <button onClick={postData} className="login-btn" type="submit">Login</button>
                     </form>
-                    <Link to="/register">Don't have account? Register</Link>
+                    <Link to="/register">Don't have account? Register</Link><br />
+                    <Link to="/">Go to home</Link>
                 </div>
             </div>
         </>

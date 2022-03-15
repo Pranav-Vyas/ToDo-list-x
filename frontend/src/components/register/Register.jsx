@@ -54,7 +54,8 @@ function Register() {
                         <input autoComplete="off" onChange={handleOnChange} required className="login-input" type="password" name="password" placeholder="Password" />
                         <button onClick={postData} className="login-btn" type="submit">Register</button>
                     </form>
-                    <Link to="/login">Already a user? Login here</Link>
+                    <Link to="/login">Already a user? Login here</Link><br />
+                    <Link to="/">Go to home</Link>
                 </div>
             </div>
         </>
